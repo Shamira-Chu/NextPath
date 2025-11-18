@@ -3,7 +3,7 @@ export const profissoes = [{
   titulo: "Arquiteto de Sistemas de IA",
   area: "Tecnologia e Inovação",
   demanda: "Alta",
-  imagem: "./img/Arquiteto de sistemas de IA.png",
+  imagem: "./img/Arquiteto-de-Sistemas-de-IA.png",
   descricao: "Projeta ecossistemas de IA para empresas.",
   competencia: "Machine learning, arquitetura de software",
   formacao: "Ciência da Computação ou Engenharia de Software",
