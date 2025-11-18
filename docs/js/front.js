@@ -17,15 +17,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    if (btnLight && btnDark && htmlElement) {
-    btnLight.addEventListener('click', () => {
-        htmlElement.classList.remove('dark');
-    });
+//     if (btnLight && btnDark && htmlElement) {
+//     btnLight.addEventListener('click', () => {
+//         htmlElement.classList.remove('dark');
+//     });
 
-    btnDark.addEventListener('click', () => {
-        htmlElement.classList.add('dark');
-    });
-}
+//     btnDark.addEventListener('click', () => {
+//         htmlElement.classList.add('dark');
+//     });
+// }
     const idToArea = {
         'filter-todos': 'Todos',
         'filter-tecnologia': 'Tecnologia e Inovação',
