@@ -12,7 +12,7 @@ O desenvolvimento utilizou **HTML**, **Tailwind CSS** para um design moderno e r
 
 A aplicação está hospedada no GitHub Pages e pode ser acessada através do link abaixo:
 
-**URL:** `[Insira aqui o link do seu GitHub Pages]`
+**URL:** `https://shamira-chu.github.io/NextPath/`
 
 ## 🔗 Link do Repositório
 
