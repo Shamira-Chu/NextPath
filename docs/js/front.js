@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const cardsContainer = document.querySelector('#cards-container');
     const filtersContainer = document.getElementById('filters');
+    const btnLight = document.getElementById('btn-light-mode');
     const btnDarkMode = document.getElementById('btn-dark-mode');
     const htmlElement = document.documentElement; 
     const btnMobileMenu = document.getElementById('btn-mobile-menu');
@@ -16,12 +17,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    if (btnDarkMode && htmlElement) {
-        btnDarkMode.addEventListener('click', () => {
-          
-            htmlElement.classList.toggle('dark');
-        });
-    }
+    if (btnLight && btnDark && htmlElement) {
+    btnLight.addEventListener('click', () => {
+        htmlElement.classList.remove('dark');
+    });
+
+    btnDark.addEventListener('click', () => {
+        htmlElement.classList.add('dark');
+    });
+}
     const idToArea = {
         'filter-todos': 'Todos',
         'filter-tecnologia': 'Tecnologia e Inovação',

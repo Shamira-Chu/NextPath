@@ -32,12 +32,18 @@
                 </nav>
 
                 <div class="hidden md:flex items-center space-x-4">
-                    <button id="btn-dark-mode" type="button" aria-pressed="false" aria-label="Alternar tema"
-                        class="p-2 gap-1 rounded-full text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
-                        <i class="fa-solid fa-sun h-5 w-5 block dark:hidden cursor-pointer" id="sun"></i>
-                        <i class="fa-solid fa-moon h-5 w-5 hidden dark:block cursor-pointer" id="moon"></i>
-                        <span class="sr-only">Alternar tema</span>
-                    </button>
+                    <div class="flex items-center space-x-2">
+
+                        <button id="btn-light-mode" type="button" aria-label="Ativar modo claro"
+                            class="p-2 rounded-full text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700">
+                            <i class="fa-solid fa-sun h-5 w-5"></i>
+                        </button>
+
+                        <button id="btn-dark-mode" type="button" aria-label="Ativar modo escuro"
+                            class="p-2 rounded-full text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700">
+                            <i class="fa-solid fa-moon h-5 w-5"></i>
+                        </button>
+                    </div>
 
                     <a href="#"
                         class=" text-center bg-emerald-500 dark:bg-emerald-600 hover:bg-emerald-600 dark:hover:bg-emerald-500 text-white p-2 rounded-lg transition-colors">
@@ -195,7 +201,7 @@
             &copy; 2025 NextPath. Todos os direitos reservados.
         </div>
     </footer>
-   
+
     <script type="module" src="./js/front.js"></script>
 </body>
 
